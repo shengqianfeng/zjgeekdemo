@@ -7,6 +7,9 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 
+/**
+ * 这是一个领域服务，和Validator一样
+ */
 @Component
 public class OrgHandler {
     private final OrgNameValidator assertOrgName;

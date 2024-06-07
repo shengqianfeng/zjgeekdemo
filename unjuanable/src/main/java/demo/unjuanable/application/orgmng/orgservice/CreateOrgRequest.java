@@ -1,5 +1,8 @@
 package demo.unjuanable.application.orgmng.orgservice;
 
+/***
+ * CreateOrgRequest: 解决的问题是，简单粗暴地把所有属性都暴露给客户端，不仅违反了最小接口原则，也容易在理解上发生混淆
+ */
 public class CreateOrgRequest {
     private Long tenant;
     private Long superior;
